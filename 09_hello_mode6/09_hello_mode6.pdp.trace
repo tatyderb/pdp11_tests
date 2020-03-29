@@ -1,11 +1,3 @@
-      1 [main] pdp11 15008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
-the public mailing list cygwin@cygwin.com
-cygwin warning:
-  MS-DOS style path detected: 09_hello_mode6\09_hello_mode6.pdp.o
-  Preferred POSIX equivalent is: 09_hello_mode6/09_hello_mode6.pdp.o
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
 
 ---------------- running --------------
 001000: mov     #000202,r1              [001002]=000202 
