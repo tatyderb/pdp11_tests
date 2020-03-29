@@ -15,5 +15,7 @@ Tests for project "Emulator PDP-11" (MIPT)
 
 * 07_putchar - печать одного символа *
 * 08_hello - Hello, world! циклом без функций
-* 09_mode6 - Hello, world! с модой 6 по 7 регистру
-* 09_jsrrts - 
+* 09_mode67 - печать одного символа:    mov R0, odata        ; print *
+* 09_mode6_plus - печать одного символа, mov 4(R0), odata    ; print e
+* 09_mode6_minus - печать одного символа, mov -2(R0), odata  ; print c
+* 10_jsrrts - Hello, world с функциями.
