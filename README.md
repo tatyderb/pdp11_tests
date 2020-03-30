@@ -20,3 +20,5 @@ Tests for project "Emulator PDP-11" (MIPT)
 * 09_mode6_minus - печать одного символа, mov -2(R0), odata  ; print c
 * 10_jsr_rts - Hello, world с функциями.
 * 10_jsr_sum - сумма массива слов, оканчивающегося 0 рекурсивной функцией jsr pc, sum
+* 10_jsr_sum_r5 - сумма массива слов, оканчивающегося 0 рекурсивной функцией jsr R5, sum (ожидаем r5=21, r4=005234)
+
