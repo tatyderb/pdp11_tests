@@ -1,33 +1,13 @@
+      1 [main] pdp11 15892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+cygwin warning:
+  MS-DOS style path detected: 10_jsr_sum\10_jsr_sum.pdp.o
+  Preferred POSIX equivalent is: 10_jsr_sum/10_jsr_sum.pdp.o
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
 
 ---------------- running --------------
-001000: mov     #001000,sp              [001002]=001000 
-001004: mov     #000100,r2              [001006]=000100 
-001010: clr     r0                      
-001012: jsr     pc,001020               
-001020: mov     (r2)+,r3                [000100]=000034 
-001022: beq     001032                  
-001024: add     r3,r0                   R3=000034 R0=000034 
-001026: jsr     pc,001020               
-001020: mov     (r2)+,r3                [000102]=000012 
-001022: beq     001032                  
-001024: add     r3,r0                   R3=000012 R0=000046 
-001026: jsr     pc,001020               
-001020: mov     (r2)+,r3                [000104]=177777 
-001022: beq     001032                  
-001024: add     r3,r0                   R3=177777 R0=000045 
-001026: jsr     pc,001020               
-001020: mov     (r2)+,r3                [000106]=000066 
-001022: beq     001032                  
-001024: add     r3,r0                   R3=000066 R0=000133 
-001026: jsr     pc,001020               
-001020: mov     (r2)+,r3                [000110]=000000 
-001022: beq     001032                  
-001032: rts     pc                      
-001032: rts     pc                      
-001032: rts     pc                      
-001032: rts     pc                      
-001032: rts     pc                      
-001016: halt                            
 
 ---------------- halted ---------------
 r0=000133 r2=000112 r4=000000 sp=001000

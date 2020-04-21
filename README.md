@@ -23,7 +23,7 @@ Tests for project "Emulator PDP-11" (MIPT)
 * 10_jsr_sum_r5 - сумма массива слов, оканчивающегося 0 рекурсивной функцией jsr R5, sum (ожидаем r5=21, r4=005234)
 
 
-## Простые тесты
+## simpe_tests - Простые тесты
 
 * adc - Add Care тест
 
