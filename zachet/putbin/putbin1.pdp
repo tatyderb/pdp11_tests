@@ -1,17 +1,18 @@
 . = 200
-A:  .WORD   131313, 1, 2, 3, 4, 5, -1, 10, 40, 1000, 100000, 123456, 12345, 0
+A:  .WORD   131313, 1, 2, 3, 4, 5, -1, 10, 40, 1000, 100000, 6543, 0
 
 . = 1000
 
 main:	mov	#main,sp	; init stack
 
-    mov #A, r5
-loop:    
-	mov	(r5)+, r0
-    beq end
+;    mov #A, r5
+;loop:    
+;	mov	(r5)+, r0
+;    beq end
+    mov @#A, r0
 	jsr	pc, putbin
 	jsr	pc, newline
-    br loop
+;    br loop
 end:
 	halt
 
