@@ -26,6 +26,8 @@ Tests for project "Emulator PDP-11" (MIPT)
 ## simpe_tests - Простые тесты
 
 * adc - Add Care тест
+* div - DIV тест (деление)
+* mul - MUL тест (умножение)
 
 ## zachet - зачетные задачи
 
