@@ -26,7 +26,11 @@ Tests for project "Emulator PDP-11" (MIPT)
 ## simpe_tests - Простые тесты
 
 * adc - Add Care тест
-* com - COM, ~src
+* ash - ASH
+* ashb - ASHB
+* asl - ASL, ASLB
+* asr - ASR, ASRB
+* com - COM, ~src - можно без флагов
 * rol - ROL + ROLB, mode 0, 2, 3
 * ror - ROR + RORB, mode 0, 2
 * div - DIV тест (деление) - можно без флагов
