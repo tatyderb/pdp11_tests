@@ -26,10 +26,11 @@ Tests for project "Emulator PDP-11" (MIPT)
 ## simpe_tests - Простые тесты
 
 * adc - Add Care тест
-* rol - ROL, mode 0, 2, 3
-* ror - ROR, mode 0, 2
-* div - DIV тест (деление)
-* mul - MUL тест (умножение)
+* com - COM, ~src
+* rol - ROL + ROLB, mode 0, 2, 3
+* ror - ROR + RORB, mode 0, 2
+* div - DIV тест (деление) - можно без флагов
+* mul - MUL тест (умножение) - можно без флагов
 
 ## zachet - зачетные задачи
 
