@@ -27,6 +27,7 @@ Tests for project "Emulator PDP-11" (MIPT)
 
 * adc - Add Care тест
 * rol - ROL, mode 0, 2, 3
+* ror - ROR, mode 0, 2
 * div - DIV тест (деление)
 * mul - MUL тест (умножение)
 
