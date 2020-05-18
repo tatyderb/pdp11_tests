@@ -27,7 +27,7 @@ Tests for project "Emulator PDP-11" (MIPT)
 
 * adc - Add Care тест
 * ash - ASH
-* ashb - ASHB
+* ashc1 + ashc2 + ashc_odd - ASHC tests - можно без флагов, сложный тест
 * asl - ASL, ASLB
 * asr - ASR, ASRB
 * com - COM, ~src - можно без флагов
