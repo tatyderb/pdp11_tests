@@ -1,0 +1,8 @@
+    .=200
+    mov #17, R1
+    halt
+    
+    .=1000
+    mov #3, R1
+    jmp 200
+    halt
